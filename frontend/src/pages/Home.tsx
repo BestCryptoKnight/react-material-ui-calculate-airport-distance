@@ -2,6 +2,7 @@ import React, { ReactElement, FC, useState, useEffect } from "react";
 import { Button, Stack, Container, Typography } from "@mui/material";
 import SearchInput from "../components/SearchInput";
 
+// function for calculating distance
 const calcDistance = (lat1: any, lon1: any, lat2: any, lon2: any) => {
   var p = 0.017453292519943295;    // Math.PI / 180
   var c = Math.cos;
