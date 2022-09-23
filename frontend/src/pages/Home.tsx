@@ -13,6 +13,8 @@ const calcDistance = (lat1: any, lon1: any, lat2: any, lon2: any) => {
   return 12742 * Math.asin(Math.sqrt(a)) * 0.621371;
 }
 
+// typescript Home
+
 const Home: FC<any> = (): ReactElement => {
   const [distance, setDistance] = useState('');
   const [airport1, setAirport1] = useState(null);
