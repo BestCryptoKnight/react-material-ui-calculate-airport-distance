@@ -9,7 +9,7 @@ const calcDistance = (lat1: any, lon1: any, lat2: any, lon2: any) => {
   var a = 0.5 - c((lat2 - lat1) * p) / 2 +
     c(lat1 * p) * c(lat2 * p) *
     (1 - c((lon2 - lon1) * p)) / 2;
-
+  // return value
   return 12742 * Math.asin(Math.sqrt(a)) * 0.621371;
 }
 
