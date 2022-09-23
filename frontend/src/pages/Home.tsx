@@ -15,6 +15,7 @@ const calcDistance = (lat1: any, lon1: any, lat2: any, lon2: any) => {
 
 
 // Home function component
+// Home 
 const Home: FC<any> = (): ReactElement => {
   const [distance, setDistance] = useState('');
   const [airport1, setAirport1] = useState(null);
