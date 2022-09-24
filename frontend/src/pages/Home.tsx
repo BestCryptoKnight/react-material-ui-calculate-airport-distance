@@ -22,6 +22,7 @@ const Home: FC<any> = (): ReactElement => {
   const [airport1, setAirport1] = useState(null);
   const [airport2, setAirport2] = useState(null);
 
+  // useEffect
   useEffect(() => {
     console.log(airport1);
   }, [airport1]);
